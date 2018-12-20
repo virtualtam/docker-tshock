@@ -8,7 +8,7 @@ volumes:
 
 services:
   tshock:
-    image: virtualtam/tshock:4.3.25
+    image: virtualtam/tshock:4.3.25-1
     build: .
     ports:
       - 7777:7777
