@@ -1,4 +1,6 @@
 # docker-tshock
+[![](https://img.shields.io/docker/automated/virtualtam/tshock.svg?style=flat-square)](https://cloud.docker.com/repository/docker/virtualtam/tshock)
+
 Run a Terraria/TShock server in a container!
 
 ## Resources
