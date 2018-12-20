@@ -1,0 +1,18 @@
+---
+version: "3"
+
+volumes:
+  tshock-config:
+  tshock-logs:
+  tshock-worlds:
+
+services:
+  tshock:
+    image: virtualtam/tshock:4.3.25
+    build: .
+    ports:
+      - 7777:7777
+    volumes:
+      - tshock-config:/tshock/data/config
+      - tshock-logs:/tshock/data/logs
+      - tshock-worlds:/tshock/data/worlds
